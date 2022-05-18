@@ -1,0 +1,255 @@
+{
+    "Companies": [
+        {
+            "Name": "Cube Enterprises",
+            "Overall": [
+                {
+                    "Month": 0,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 1,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 2,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 3,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 4,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 5,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 6,
+                    "Limit": 1000.5
+                },
+                {
+                    "Month": 7,
+                    "Limit": 3000
+                },
+                {
+                    "Month": 8,
+                    "Limit": 3000
+                },
+                {
+                    "Month": 9,
+                    "Limit": 3000
+                },
+                {
+                    "Month": 10,
+                    "Limit": 3000
+                },
+                {
+                    "Month": 11,
+                    "Limit": 3000
+                },
+                {
+                    "Month": 12,
+                    "Limit": 3000
+                }
+            ],
+            "SubLimits": {
+                "Power": [
+                    {
+                        "Month": 1,
+                        "Limit": 800
+                    },
+                    {
+                        "Month": 2,
+                        "Limit": 800
+                    },
+                    {
+                        "Month": 3,
+                        "Limit": 800
+                    },
+                    {
+                        "Month": 4,
+                        "Limit": 800
+                    },
+                    {
+                        "Month": 5,
+                        "Limit": 900
+                    },
+                    {
+                        "Month": 6,
+                        "Limit": 900
+                    }
+                ],
+                "Gas": [
+                    {
+                        "Month": 4,
+                        "Limit": 600
+                    },
+                    {
+                        "Month": 5,
+                        "Limit": 600
+                    },
+                    {
+                        "Month": 6,
+                        "Limit": 600
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Cube Trading",
+            "Overall": [
+                {
+                    "Month": 0,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 1,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 2,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 3,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 4,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 5,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 6,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 7,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 8,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 9,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 10,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 11,
+                    "Limit": 5000
+                },
+                {
+                    "Month": 12,
+                    "Limit": 5000
+                }
+            ],
+            "SubLimits": {
+                "Diamonds": [
+                    {
+                        "Month": 7,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 8,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 9,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 10,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 11,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 12,
+                        "Limit": 300
+                    }
+                ],
+                "Power": [
+                    {
+                        "Month": 0,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 1,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 2,
+                        "Limit": 300
+                    }
+                ],
+                "Wind": [
+                    {
+                        "Month": 0,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 1,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 2,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 3,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 4,
+                        "Limit": 300
+                    },
+                    {
+                        "Month": 5,
+                        "Limit": 300
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Nice Trading",
+            "Overall": [
+                {
+                    "Month": 1,
+                    "Limit": 250
+                },
+                {
+                    "Month": 2,
+                    "Limit": 250
+                },
+                {
+                    "Month": 3,
+                    "Limit": 250
+                },
+                {
+                    "Month": 4,
+                    "Limit": 250
+                },
+                {
+                    "Month": 5,
+                    "Limit": 250
+                }
+            ],
+            "SubLimits": {
+            }
+        }
+    ]
+}

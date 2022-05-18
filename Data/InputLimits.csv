@@ -1,0 +1,11 @@
+Company,SubLimit,StartMonth,EndMonth,Limit
+Cube Enterprises,,0,6,1000.5
+Cube Enterprises,Power,1,4,800
+Cube Enterprises,Power,5,6,900
+Cube Enterprises,Gas,4,6,600
+Cube Trading,,0,12,5000
+Cube Trading,Diamonds,7,12,300
+Nice Trading,,1,5,250
+Cube Trading,Power,0,2,300
+Cube Trading,Wind,0,5,300
+Cube Enterprises,,7,12,3000
