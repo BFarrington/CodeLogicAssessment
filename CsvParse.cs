@@ -35,7 +35,7 @@ namespace CodeLogicAssessment
                 var data = csv.GetRecords<Record>();
                 foreach (var record in data)
                 {
-                    //Populate Companies from each record in CSV
+                    //Check if company already exists, if not create a new one.
                     var company = companies.Find((c) => { return c.Name == record.Company; });
 
                     if (company == null && record.Company != null)
@@ -43,17 +43,27 @@ namespace CodeLogicAssessment
                         company = new Company(record.Company);
                         companies.Add(company);
                     }
-
+                    //Overall Limit Population
                     if (company != null && String.IsNullOrEmpty(record.SubLimit))
                     {
                         for (int i = record.StartMonth; i <= record.EndMonth; i++)
                         {
-                            company.Overall.Add(new MonthLimit(i, record.Limit));
+                            //Check if month already exists, if not create a new one.
+                            var existingMonth = company.Overall.Find((c) => { return c.Month == i; });
+                            if(existingMonth == null)
+                            {
+                                company.Overall.Add(new MonthLimit(i, record.Limit));
+                            }
+                            else
+                            {
+                                existingMonth.Limit = record.Limit;
+                            }
                         }
                     }
-
+                    //SubLimit Population
                     else if (company != null && !String.IsNullOrEmpty(record.SubLimit))
                     {
+                        //Check if sublimit already exists, if not create a new one.
                         List<MonthLimit> subLimit = new List<MonthLimit>();
                         if (company.SubLimits.ContainsKey(record.SubLimit))
                         {
@@ -65,7 +75,16 @@ namespace CodeLogicAssessment
                         }
                         for (int i = record.StartMonth; i <= record.EndMonth; i++)
                         {
-                            subLimit.Add(new MonthLimit(i, record.Limit));
+                            //Check if month already exists, if not create a new one.
+                            var existingMonth = subLimit.Find((c) => { return c.Month == i; });
+                            if( existingMonth == null)
+                            {
+                                subLimit.Add(new MonthLimit(i, record.Limit));
+                            }
+                            else
+                            {
+                                existingMonth.Limit = record.Limit;
+                            }
                         }
                     }
                 }
